@@ -6,10 +6,18 @@
 
 > O tráfego de rede contendo PHI deve criptografar os dados em trânsito. Para tráfego entre fontes externas (como a Internet ou um ambiente de TI tradicional) e o Amazon EC2, os clientes devem usar mecanismos de criptografia de transporte de padrão aberto, como Transport Layer Security (TLS) ou redes privadas virtuais (VPNs) IPsec, consistentes com a orientação. Interno de uma Amazon Virtual Private Cloud (VPC) para dados que trafegam entre instâncias do Amazon EC2, o tráfego de rede contendo PHI também deve ser criptografado; a maioria dos aplicativos suporta TLS ou outros protocolos que fornecem criptografia em trânsito que pode ser configurada para ser consistente com a orientação. Para aplicativos e protocolos que não oferecem suporte à criptografia, as sessões que transmitem PHI podem ser enviadas por meio de túneis criptografados usando IPsec ou implementações similares entre instâncias.
 
-## Criar insTãncias
+## Criar instâncias
 
-[Via Console]()
+[Via Console](./criar/via-console.md)
 
-[Via Console SSM]()
+[Via Console SSM](./criar/via-console-ssm.md)
 
-[Via Script.sh]()
+[Via Script.sh](./criar/via-script/via-script.md)
+
+## Acessar instâncias
+
+[Via Console](./acessar/console.md)
+
+[Via Console SSM](./acessar/console-ssm.md)
+
+[Via Script.sh](./acessar/aws-cli.md)
