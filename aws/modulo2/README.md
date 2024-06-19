@@ -1,6 +1,4 @@
 # MÓDULO 2
-
-## Introdução
     
 [Como funciona o IAM](./iam.md)
 
@@ -18,6 +16,6 @@
 
 [Acesso via Cloud Shell](cloudshell.md)
 
-[Acesso cia Linah de Comando - AWS-CLI](aws-cli.md)
+[Acesso via Linha de Comando - AWS-CLI](aws-cli.md)
     
-Quiz
+[Quiz](quiz.md)
