@@ -39,3 +39,7 @@ Concluir a criação do usuário
 ![Conclusão](./images/criacao.png)
 
 </div>
+
+Importante!
+
+Salvar as credenciais do usuário, um arquivo .csv, posteriormente será necessário para configurar o [AWS-CLI](aws-cli.md).
