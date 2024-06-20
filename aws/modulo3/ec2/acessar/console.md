@@ -2,7 +2,5 @@
 
 ## Via Console
 
-## Via AWS-CLI
 
-## Via SSM
 

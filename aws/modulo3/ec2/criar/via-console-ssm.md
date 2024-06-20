@@ -6,7 +6,7 @@ Dentro do console da AWS, procurar por EC2, na aba lateral procurar por Instânc
 
 <div align="center">
 
-![Console](../images/instancias.png)
+![Console](../../images/instancias.png)
 
 </div>
 
@@ -14,7 +14,7 @@ Clicar em Executar Instâncias
 
 <div align="center">
 
-![Criar EC2](../images/criar-ec2.png)
+![Criar EC2](../../images/criar-ec2.png)
 
 </div>
 
@@ -34,7 +34,7 @@ Depois clicar em Executar Instância
 
 <div align="center">
 
-![Criar EC2](../images/exito.png)
+![Criar EC2](../../images/exito.png)
 
 </div>
 
@@ -42,9 +42,9 @@ Depois clicar em Executar Instância
 
 <div align="center">
 
-![IAM](../images/iam2.png)
+![IAM](../../images/iam2.png)
 
-![Criando Role](../images/criando-role.png)
+![Criando Role](../../images/criando-role.png)
 
 </div>
 
@@ -56,7 +56,7 @@ Caso de Uso, escolher EC2 <NEXT>
 
 <div align="center">
 
-![Selecionar Entidade Confiável](../images/entidade.png)
+![Selecionar Entidade Confiável](../../images/entidade.png)
 
 </div>
 
@@ -64,7 +64,7 @@ Procurar pelo Nome da Política: AmazonSSMManagedInstanceCore
 
 <div align="center">
 
-![SSM](../images/ssm.png)
+![SSM](../../images/ssm.png)
 
 </div>
 
@@ -72,7 +72,7 @@ Role Acesso SSM
 
 <div align="center">
 
-![SSM](../images/role.png)
+![SSM](../../images/role.png)
 
 </div>
 
@@ -82,9 +82,9 @@ Clicar com o botão direito do mouse sobre a Instância criada
 
 <div align="center">
 
-![Modificar Role](../images/modificar-role-iam.png)
+![Modificar Role](../../images/modificar-role-iam.png)
 
-![Role Modificada ](../images/role-modificada.png)
+![Role Modificada ](../../images/role-modificada.png)
 
 </div>
 
