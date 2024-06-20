@@ -36,24 +36,10 @@ CodeCommit
 
 AWS
 
-ricardo.fahham@corp.globo.com
-Arnold
 
 
-user: ricardo.fahham
-ID da chave de acesso     Chave de acesso secreta
-AKIARKTPHQUHVISQEC6Y      F63c6Jrp8SvpCgx45ZZ7CbCxh55WYv3Kk7yAkTex
 
 
-user: ricardo
-ID da chave de acesso     Chave de acesso secreta
-AKIARKTPHQUHSYVTWPDV      dUbR+pWHyQHozOkJVZh4aK6/bDHNWt7I+AW+3kC7
-
-
-Nome de usuário
-ricardo-at-091501331727
-Senha
-a9a7pmohEpgxCaOXGptnD/H4nlceRcIujCLdDt0r0vc=
 
 
 Criar repositório no CodeCommit
@@ -73,8 +59,8 @@ $ aws --version
 Configurar o acesso da máquina para a conta no AWS
 
 $ aws configure
-AWS Access Key ID [None]: AKIARKTPHQUHSYVTWPDV
-AWS Secret Access Key [None]: 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
+AWS Access Key ID [None]: 
+AWS Secret Access Key [None]: 
 Default region name [None]: eu-west-1
 Default output format [None]:
 
@@ -104,6 +90,3 @@ EX.: appworkon
 Provedor de Origem
 
 AWS CodeCommit
-
-
-
