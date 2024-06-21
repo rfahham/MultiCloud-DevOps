@@ -28,4 +28,8 @@ Selecionar um grupo de segurança existente:
 
 Depois clicar em Executar Instância
 
-> Próximo passo... [Acessar a instância via console](../acessar/cli.md)
+> Próximo passo... Acessar a instância...
+
+[Via console](../acessar/console.md)
+[Via cli](../acessar/cli.md)
+[Via console SSM](../acessar/console-ssm.md)
