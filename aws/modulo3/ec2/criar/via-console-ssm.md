@@ -88,12 +88,6 @@ Clicar com o botão direito do mouse sobre a Instância criada
 
 </div>
 
-## Para acessar
 
-Usar o CloudShell
-
-```bash
-aws ssm start-session --target ID da instância
-```
 
 

@@ -1,13 +1,19 @@
-# Criando Credenciais utilizando SSM
+# Acessar SSM
 
-IAM
+Acessar o CloudShell e startar a sessão
 
-ROLES
+```bash
+aws ssm start-session --target <ID da instância>
+```
 
-ROLES para EC2
+Mudar para o usuário ec2-user
 
-procurar por:
+```bash
+sudo su ec2-user
+```
 
-AmazonSSMManagedInstanceCore
-AmazonEC2ContainerRegistryFullAccess
-AmazonECS_FullAccess
+Acessar a home 
+
+```bash
+cd /home/ec2-user
+```
