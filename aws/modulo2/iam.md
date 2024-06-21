@@ -31,3 +31,26 @@ Com o AWS Identity and Access Management (IAM), você pode especificar quem ou o
 - Estabeleça barreiras de proteção preventivas e em toda a organização na AWS
 
 - Defina, verifique e dimensione corretamente as permissões para alcançar o privilégio mínimo
+
+## Considerações (Melhores Práticas)
+
+- Cada usuário deve possuir permissões para executar apenas suas atividades de acordo com suas responsabilidades
+
+- Um usuário após a sua criação, não possui nenhum privilégio, caso não seja dado a ele.
+
+- Definição de permissôes de usuários através de grupos e policies.
+
+- Trabalhar sme dependência da infra provida On-Promises
+
+- Seguir o princíprio do menor  privilégio
+
+- Não utilizar usauário para logar em aplicações
+
+- Conta ROOT deve possuir MFA
+
+- Não utilizar conta ROOT, somente para configuração inicial
+
+- Não compartilhar credenciais
+
+- Um User IAM por pessoa
+
