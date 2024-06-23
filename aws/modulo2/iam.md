@@ -40,7 +40,7 @@ Com o AWS Identity and Access Management (IAM), você pode especificar quem ou o
 
 - Definição de permissôes de usuários através de grupos e policies.
 
-- Trabalhar sme dependência da infra provida On-Promises
+- Trabalhar sme dependência da infra provida On-Premises
 
 - Seguir o princíprio do menor  privilégio
 
