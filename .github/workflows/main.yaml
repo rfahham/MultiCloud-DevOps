@@ -9,4 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Exemplo
-        run: echo "Hello World !!!"
+        run: echo "CI"
+  cd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Exemplo
+        run: echo "CD"
+  
