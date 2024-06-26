@@ -39,8 +39,3 @@ Desinstalar uma distribuição
 ```bash
 wsl -t <nome da distribuição>
 ```
-
-Windows terminal
-
-Instalar
-

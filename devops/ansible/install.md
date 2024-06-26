@@ -18,6 +18,23 @@ yum install ansible
 brew install ansible
 ```
 
+
+Verifica playbooks ansible para práticas e comportamento
+
+```bash 
+brew install ansible-lint 
+```
+
+Execute várias operações relacionadas a funções e coleções.
+
+```bash 
+brew install software-properties-common
+``` 
+
+brew install ansible-galaxy
+
+ansible-galaxy collection install google.cloud
+
 ## Verificando a versão
 
 ```bash 
