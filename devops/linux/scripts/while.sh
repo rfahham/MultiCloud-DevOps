@@ -32,3 +32,25 @@ while true; do curl -I https://portal-qa2-nginx.apps.tsuru.dev.gcp.i.globo/ ; sl
 while true; do kubectl top nodes; sleep 1; done
 
 while true; do git pull && say novas atualizacoes; sleep 5; done
+
+while true; do date; sleep 10800; kubectl scale deploy testkube-qac-scale-app -n testkube --replicas=1; quant=$(kubectl get nodes | grep gke-qac-prod-gke-testkube | wc -l); say $quant; done
+
+while true; do date; sleep 1700; say escalando nodes; kubectl scale deploy testkube-qac-scale-app -n testkube --replicas=10; sleep 10800; kubectl scale deploy testkube-qac-scale-app -n testkube --replicas=1; done
+
+
+
+while true; do quant=$(kubectl get nodes | grep gke-qac-prod-gke-testkube | wc -l); say $quant; sleep 30; done
+
+
+
+
+while true; do date; sleep 1; say removendo nodes; kubectl scale deploy testkube-qac-scale-app -n testkube --replicas=1; done
+
+
+uma hora tem 3600 segundos
+
+while true; do date; sleep 30; ping www.globo.com; say servidor UP; done
+
+
+status=$(curl --write-out %{http_code} --silent --output /dev/null https://www.globo.com) && echo $status
+

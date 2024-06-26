@@ -35,20 +35,3 @@ accept-ranges: bytes
 x-thanos: 0A839C04
 ```
 
-## POST
-
-```bash
-curl 
-```
-
-## PUT
-
-```bash
-curl 
-```
-
-## DELETE
-
-```bash
-curl 
-```
