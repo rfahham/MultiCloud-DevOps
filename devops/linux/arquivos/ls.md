@@ -62,3 +62,9 @@ drwxr-xr-x  2 rfahham 4096 Jun 20 13:07 gcp
 drwxr-xr-x  3 rfahham 4096 Jun 21 11:18 on-premises
 drwxr-xr-x  4 rfahham 4096 Jun 21 10:14 projetos
 ```
+
+Para mais detalhes
+
+```bash
+ls --help
+```
