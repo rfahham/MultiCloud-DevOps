@@ -19,3 +19,8 @@ Todo o acesso de entrada ao ambiente
 
 Todo acesso de saída do ambiente para a internet
 
+<div align="center">
+
+![Security Group](../images/security-group.png)
+
+</div>
