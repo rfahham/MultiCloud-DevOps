@@ -1,5 +1,16 @@
 # Documentação
 
+Na GCP
+
+- Criar o projeto, que terá um ID
+- Criar o Service Account (iam/service account)
+    - nome: terraform
+    - role
+        - project editor
+    - keys
+        - add
+            - new (json)
+    
 ## Provider
 
 https://registry.terraform.io/

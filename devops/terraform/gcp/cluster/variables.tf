@@ -6,7 +6,7 @@ variable "gcp_project_id" {
 
 variable "gcp_region" {
   type        = string
-  default     = "us-east1"
-  description = "Região onde será criada a instância"
+  default     = "southamerica-east1-a"
+  description = "Região onde será o cluster"
 }
 
