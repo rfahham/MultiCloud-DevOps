@@ -14,7 +14,6 @@ comitar usando ...
 git commit -m ":tada: commit inicial"
 ```
 
-
 ## Exemplos para o Commit Semântico
 
     FIX - RESOLVE UM BUG
@@ -30,16 +29,4 @@ git commit -m ":tada: commit inicial"
 
 ```bash
 git commit -m "FIX: commit inicial"
-```
-
-## Criando a TAG
-
-```bash
-git tag -a v1.0.1 -m "Fixed a bug sending results to the Report"
-```
-
-## Subindo a TAG
-
-```bash
-git push origin --tags
 ```
