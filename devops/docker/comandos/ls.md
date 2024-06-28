@@ -15,4 +15,8 @@ Que foram executados, status exited
 docke container ls -a
 ```
 
+Listar só os IDS
 
+```bash
+docker container ls -aq
+```

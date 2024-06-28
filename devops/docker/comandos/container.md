@@ -1,5 +1,9 @@
 # Containers
 
+Estrutura modelada para um padrão de execução, pode ser executado independente do ambiente. 
+
+Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração.
+
 ## List running containers
 
 ```bash

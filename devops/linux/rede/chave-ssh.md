@@ -14,6 +14,12 @@ Enter same passphrase again:
 
 ```
 
+OU com a criptografia 4096 e passando o nome
+
+```bash
+ssh-keygen -t rsa -b 4096 -f authorized_keys -C authorized_keys
+```
+
 ## Exibir
 
 ```bash
