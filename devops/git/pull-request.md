@@ -3,13 +3,16 @@
 ## Adicionar os arquivos
 
 ```bash
-git add .
+git add devops/git/pull-request.md
 ```
 
 ## Commitar
 
 ```bash
-git commit -m 'preparando git'
+git commit -m 'adicionando arquivo pull-request'
+
+[git ba66d53] adicionando arquivo pull-request
+1 file changed, 21 insertions(+), 1 deletion(-)
 ```
 
 ## Push 
