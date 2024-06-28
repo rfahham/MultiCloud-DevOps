@@ -10,13 +10,13 @@ A AWS é usada por empresas de todos os tamanhos, desde startups até grandes co
 
 A AWS oferece uma ampla gama de serviços de computação em nuvem, incluindo:
 
-> **Amazon Elastic Compute Cloud (EC2):** permite criar e executar máquinas virtuais na nuvem.
+> [**Amazon Elastic Compute Cloud (EC2):**](./modulo3/ec2/ec2.md) permite criar e executar máquinas virtuais na nuvem.
 
-> **Amazon Simple Storage Service (S3):** permite armazenar e recuperar dados de forma escalável, durável e segura.
+> [**Amazon Simple Storage Service (S3):**](./modulo3/s3/) permite armazenar e recuperar dados de forma escalável, durável e segura.
 
-> **Amazon Relational Database Service (RDS):** oferece serviços gerenciados de banco de dados relacionais, incluindo MySQL, PostgreSQL, Oracle e SQL Server.
+> [**Amazon Relational Database Service (RDS):**](./modulo3/rds/) oferece serviços gerenciados de banco de dados relacionais, incluindo MySQL, PostgreSQL, Oracle e SQL Server.
 
-> **Amazon DynamoDB:** é um banco de dados NoSQL de alto desempenho e totalmente gerenciado.
+> [**Amazon DynamoDB:**](./modulo3/DynamoDB.md) é um banco de dados NoSQL de alto desempenho e totalmente gerenciado.
 
 > **Amazon Glacier:** é um serviço de armazenamento de arquivamento de baixo custo para dados que não são acessados com frequência.
 
