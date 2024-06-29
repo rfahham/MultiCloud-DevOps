@@ -17,3 +17,7 @@
 ![Console](./images/console.png)
 
 </div>
+
+## Contas
+
+Depois de logar como **ROOT**, [criar um usuário](../modulo2/usuario/criar.md).

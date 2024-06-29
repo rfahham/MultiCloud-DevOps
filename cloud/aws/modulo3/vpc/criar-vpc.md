@@ -22,7 +22,5 @@ Bloco CIDR ipv4: 10.0.0.0/16
 
 Confirmar com Criar VPC
 
-> Próximo passo...
-
-![Criar as sub-redes](./sub-redes)
+> Próximo passo... [criar a sub-rede](../vpc/sub-rede.md)
 

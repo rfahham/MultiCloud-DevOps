@@ -6,7 +6,7 @@ Criar o Grupo
 
 <div align="center">
 
-![Grupo de Usuários](./images/grupo.png)
+![Grupo de Usuários](../images/grupo.png)
 
 </div>
 
@@ -18,6 +18,8 @@ Associar políticas de permissões - Opcional
 
 <div align="center">
 
-![Grupo de Usuários](./images/bucket-producao.png)
+![Grupo de Usuários](../images/bucket-producao.png)
 
 </div>
+
+Próximo passo... [Criar usuário](../usuario/criar.md).
