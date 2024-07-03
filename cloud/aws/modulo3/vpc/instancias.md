@@ -1,4 +1,4 @@
-# Criar as Instâncias
+# 7 - Criar as Instâncias
 
 ## instance-public
 
@@ -36,6 +36,4 @@ Em Configuração de Rede...
 
 </div>
 
-> Próximo passo...
-
-![Criar a VPC](./criar-vpc.md)
+> Próximo passo... [Acesso SSH](./ssh.md) .

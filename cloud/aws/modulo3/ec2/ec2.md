@@ -5,19 +5,3 @@
 > Os clientes podem optar por integrar seus aplicativos executados no Amazon EC2 com AWS KMS SDKs, simplificando o processo de gerenciamento e armazenamento de chaves. Os clientes também podem implementar a criptografia de dados em repouso usando criptografia em nível de arquivo ou de disco inteiro (FDE) usando software de terceiros de AWS Marketplace parceiros ou ferramentas nativas de criptografia de sistemas de arquivos (como dm-crypt, LUKS etc.).
 
 > O tráfego de rede contendo PHI deve criptografar os dados em trânsito. Para tráfego entre fontes externas (como a Internet ou um ambiente de TI tradicional) e o Amazon EC2, os clientes devem usar mecanismos de criptografia de transporte de padrão aberto, como Transport Layer Security (TLS) ou redes privadas virtuais (VPNs) IPsec, consistentes com a orientação. Interno de uma Amazon Virtual Private Cloud (VPC) para dados que trafegam entre instâncias do Amazon EC2, o tráfego de rede contendo PHI também deve ser criptografado; a maioria dos aplicativos suporta TLS ou outros protocolos que fornecem criptografia em trânsito que pode ser configurada para ser consistente com a orientação. Para aplicativos e protocolos que não oferecem suporte à criptografia, as sessões que transmitem PHI podem ser enviadas por meio de túneis criptografados usando IPsec ou implementações similares entre instâncias.
-
-## Criar instâncias
-
-[Via Console](./criar/via-console.md)
-
-[Via Console SSM](./criar/via-console-ssm.md)
-
-[Via Script.sh](./criar/via-script/via-script.md)
-
-## Acessar instâncias
-
-[Via Console](./acessar/console.md)
-
-[Via Console SSM](./acessar/console-ssm.md)
-
-[Via Script.sh](./acessar/aws-cli.md)

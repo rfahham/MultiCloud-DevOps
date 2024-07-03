@@ -9,3 +9,5 @@ https://portal.aws.amazon.com/billing/signup#/start/email
 </div>
 
 Obs. Precisa de um cartão internacional
+
+Proximo passo... [Console da AWS](console.md)

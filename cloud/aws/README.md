@@ -45,8 +45,9 @@ A AWS oferece uma ampla gama de serviços de computação em nuvem, incluindo:
 Além desses, existem muitos outros serviços oferecidos pela AWS, incluindo serviços de análise de dados, aprendizado de máquina, inteligência artificial, segurança, redes, Internet das coisas e muito mais.
 
 ## Custos
-Os custos variam de acordo com os serviços utilizados e com o consumo de recursos, como instâncias EC2, armazenamento de dados, transferência de dados, entre outros. A AWS oferece um modelo de pagamento conforme o uso (pay-as-you-go), o que significa que os clientes pagam apenas pelos serviços que utilizam, sem compromissos de longo prazo ou taxas antecipadas.
 
-Cada serviço da AWS tem uma estrutura de preços própria e pode ser cobrado por hora, por GB de armazenamento, por quantidade de transferência de dados, por solicitações ou por outros fatores. Alguns serviços, como o AWS Free Tier, oferecem um nível gratuito de uso limitado para novos clientes durante um período de tempo limitado.
+> Os custos variam de acordo com os serviços utilizados e com o consumo de recursos, como instâncias EC2, armazenamento de dados, transferência de dados, entre outros. A AWS oferece um modelo de pagamento conforme o uso (pay-as-you-go), o que significa que os clientes pagam apenas pelos serviços que utilizam, sem compromissos de longo prazo ou taxas antecipadas.
 
-Para ajudar os clientes a entender e controlar seus custos na AWS, a plataforma oferece ferramentas de gerenciamento de custos, como o AWS Cost Explorer e o AWS Budgets, que permitem visualizar, monitorar e controlar os gastos em tempo real e planejar futuros orçamentos.
+> Cada serviço da AWS tem uma estrutura de preços própria e pode ser cobrado por hora, por GB de armazenamento, por quantidade de transferência de dados, por solicitações ou por outros fatores. Alguns serviços, como o AWS Free Tier, oferecem um nível gratuito de uso limitado para novos clientes durante um período de tempo limitado.
+
+> Para ajudar os clientes a entender e controlar seus custos na AWS, a plataforma oferece ferramentas de gerenciamento de custos, como o AWS Cost Explorer e o AWS Budgets, que permitem visualizar, monitorar e controlar os gastos em tempo real e planejar futuros orçamentos.
