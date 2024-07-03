@@ -1,4 +1,4 @@
-# Criando uma VPC
+# 1 - Criando uma VPC
 
 > Acessar o Console da AWS
 
@@ -14,13 +14,11 @@
 
 </div>
 
-Dar nome para a nova VPC
+Dar nome para a nova VPC: `master-vpc`
 
-Nome: master-vpc
-
-Bloco CIDR ipv4: 10.0.0.0/16
+Bloco CIDR ipv4: `10.0.0.0/16`
 
 Confirmar com Criar VPC
 
-> Próximo passo... [criar a sub-rede](../vpc/sub-rede.md)
+> Próximo passo... [Criar a subnet](../vpc/subnet.md) .
 

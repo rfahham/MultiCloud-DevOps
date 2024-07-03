@@ -1,4 +1,4 @@
-## Internet Gateway
+## 3 - Internet Gateway
 
 Habilitar para que a instance-public possa ter acesso da internet.
 
@@ -24,6 +24,4 @@ Em VPC, Gateways da Internet
 
 </div>
 
-> Próximo passo...
-
-![Nat Gateway](./nat-gateway.md)
+> Próximo passo... [Nat Gateway](./nat-gateway.md) .

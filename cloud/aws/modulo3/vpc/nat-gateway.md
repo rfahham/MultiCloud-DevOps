@@ -1,4 +1,4 @@
-# NAT GATEWAY
+# 4 - NAT GATEWAY
 
 Liberar acesso da Rede privada para acesso a internet
 
@@ -16,9 +16,5 @@ Nome: master-nat-gateway
 
 </div>
 
-
-
-> Próximo passo...
-
-![Tabela de Rotas](./tabela-rotas.md)
+> Próximo passo... [Tabela de Rotas](./route-tables.md) .
 

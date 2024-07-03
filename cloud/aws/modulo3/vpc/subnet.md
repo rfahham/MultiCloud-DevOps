@@ -1,6 +1,6 @@
-# Criar as sub-redes
+# 2 - Criar as subnets
 
-Clicar em sub-redes
+Clicar em subnets
 
 Crie sub-redes nessa VPC...
 
@@ -10,7 +10,7 @@ Selecionar a VPC
 
 Nome da vpc pública: master-public
 
-Zona de disponibilidade: us-east-1a
+Zona de disponibilidade: `us-east-1a`
 
 Bloco CIDR ipv4 da sub-rede: 10.0.0.0/24
 
@@ -22,11 +22,11 @@ Bloco CIDR ipv4 da sub-rede: 10.0.0.0/24
 
 ## Criar sub-rede privada (2 de 2)
 
-Nome da vpc privada: master-private
+Nome da vpc privada: `master-private`
 
-Zona de disponibilidade: us-east-1a
+Zona de disponibilidade: `us-east-1a`
 
-Bloco CIDR ipv4 da sub-rede: 10.0.0.0/24
+Bloco CIDR ipv4 da sub-rede: `10.0.0.0/24`
 
 <div align="center">
 
@@ -42,6 +42,4 @@ Bloco CIDR ipv4 da sub-rede: 10.0.0.0/24
 
 </div>
 
-Próximo passo...
-
-[Criar Internet Gateway](./internet-gateway.md)
+> Próximo passo... [Criar Internet Gateway](./internet-gateway.md) .

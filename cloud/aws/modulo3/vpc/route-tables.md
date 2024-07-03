@@ -1,4 +1,6 @@
-# Criando Tabela de Rota de saída no Internet Gateway
+# 5 - Criar a Route Tables
+
+Criando Tabela de Rota de saída no Internet Gateway
 
 Em VPC / Tabelas de Rotas
 
@@ -61,6 +63,5 @@ Editar Rota
 Alvo: Nat Gateway
 
 
-> Próximo passo...
+> Próximo passo... [Security Group](../vpc/security-group.md)
 
-[Acesso SSH](./ssh.md)

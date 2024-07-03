@@ -8,8 +8,16 @@ Introdução
 
 [Free Trial vs Always Free na AWS](free-trial.md)
 
-[Hands-On Criação de Conta na AWS](criacao.md)
-
 [Tour na Console da AWS](console.md)
+
+[Como funciona o IAM](iam.md)
+
+## Hands-On
+
+[ Criação de Conta na AWS](criacao.md)
+
+[ Criação de Grupo de usuários](../modulo1/grupo/criar.md)
+
+[ Criação de Usuários](../modulo1/usuario/criar.md)
 
 [Quiz](quiz.md)

@@ -11,3 +11,7 @@
 > Quais os serviços que são pagos mesmo estando no período do free trial?
 
 > Quais são os tipos de serviços oferecidos pela AWS? 
+
+> O que é IAM ?
+
+> O que é usuário ROOT ?

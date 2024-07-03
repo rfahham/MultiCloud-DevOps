@@ -6,7 +6,7 @@ Computação
 
 Armazenamento. 
     
->Amazon Simple Storage Service (S3) ...
+> Amazon Simple Storage Service (S3) ...
     
 Generative AI. 
     
@@ -32,6 +32,6 @@ Banco de dados.
     
 > Amazon RDS
 
-Valumes
+Volumes
     
 > Amazon S3 - Armazenamento de objetos construído para armazenar e recuperar qualquer volume de dados de qualquer local
