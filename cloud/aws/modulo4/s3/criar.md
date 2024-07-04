@@ -1,42 +1,39 @@
-Criando um Bucket na AWS
+# Criando um Bucket na AWS
 
-S3 
+No console da AWS, procurar por `S3`
 
-Create bucket
+<div align="center">
 
-Name: 
+![Criar Bucket](./images/criar-bucket.png)
 
-Region: 
+</div>
 
-Configurando o acesso: Autenticação
+Clicar em `Criar Bucket`
 
-Secure, Identity
+<div align="center">
 
-IAM
+![Config Bucket](./images/config-bucket.png)
 
-Users
+</div>
 
-Add User
+❗ Obs.: O Bucket precisa ser único, por isso precisa de um nome que não exista a possibilidade de ter outro com o mesmo nome.
 
-User Name:
+Ao criar um Bucket com o nome de Terraform, por exemplo, surgirá a mensagem de que já existe um Bucket com este nome.
 
-Access type: Programmatic access
+<div align="center">
 
-Next
+![Erro ao criar o Bucket](./images/erro-criar.png)
 
-Create Group
+</div>
 
-Attach existing Police
+O que pode ser feito é adicionar mais informações sobre o Bucket através do nome.
 
-AmazonS3FullAccess
+Exemplo: terraform-master-01
 
-Next
+<div align="center">
 
-Create User
+![Bucket criado](./images/bucket-criado.png)
 
-Access Key ID
+</div>
 
-Secret Access Key
-
-Download .csv
-
+Próximo passo... [Upload do Objeto](upload.md)
