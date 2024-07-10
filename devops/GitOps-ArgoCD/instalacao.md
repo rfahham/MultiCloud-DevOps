@@ -8,7 +8,9 @@ kubectl create namespace argocd
 namespace/argocd created
 ```
 
-Vamos fazer a instalação do ArgoCD utilizando o helm. Nesse link você terá mais informações sobre esse helm chart.
+Vamos fazer a instalação do ArgoCD utilizando o helm. 
+
+Nesse link você terá mais informações sobre esse helm chart.
 
 Abaixo o comando utilizado para a instalação do ArgoCD:
 
