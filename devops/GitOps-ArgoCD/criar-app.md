@@ -36,10 +36,9 @@ Em General temos as seguintes configurações abaixo:
 
     - Self Heal essa opção quando habilitada força que o estado do seu deploy seja igual ao que está definido no seu repositório git.
 
-    - Auto-Create Namespace caso o namespace não exista o mesmo será criado no seu cluster kubernetes.
+- Auto-Create Namespace caso o namespace não exista o mesmo será criado no seu cluster kubernetes.
 
 Agora vamos partir pra segunda parte das configurações conforme imagem abaixo:
-
 
 Em Source temos as seguintes configurações abaixo:
 
@@ -48,7 +47,6 @@ Em Source temos as seguintes configurações abaixo:
 ![Source](../GitOps-ArgoCD/images/source.png)
 
 </div>
-
 
 - Repository URL será a Url do nosso repositório git que está a definição do nossa app.
 
@@ -73,7 +71,6 @@ Em Source temos as seguintes configurações abaixo:
 - Cluster URL vamos passar a URL do nosso cluster kubernetes como só temos um cluster só aparecerá apenas uma opção mas existe a possibilidade de configurar mais de um cluster.
 
 - Namespace é o nome do namespace que será criado no nosso cluster caso não exista e onde será feito a criação da nossa aplicação.
-
 
 Agora basta clicar no botão Create e será apresentado a nossa aplicação conforme abaixo:
 
