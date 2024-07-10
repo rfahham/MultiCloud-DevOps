@@ -112,6 +112,30 @@ http://localhost:8181
 
 </div>
 
+
+## Escalando a quantidade de PODS do WORKON
+
+```bash
+kubectl scale deploy/workon --replicas 10 -n workon
+deployment.apps/workon scaled
+```
+## Verificar se o escalonamento funcionou...rs
+
+```bash
+kubectl get pods
+NAME                      READY   STATUS    RESTARTS      AGE
+workon-69dccb94cb-7cnkn   1/1     Running   0             20s
+workon-69dccb94cb-8kdw9   1/1     Running   0             20s
+workon-69dccb94cb-fm87j   1/1     Running   0             20s
+workon-69dccb94cb-mc7n7   1/1     Running   0             20s
+workon-69dccb94cb-p85fn   1/1     Running   0             20s
+workon-69dccb94cb-qrdb6   1/1     Running   0             20s
+workon-69dccb94cb-rhgbc   1/1     Running   0             61m
+workon-69dccb94cb-tbfq8   1/1     Running   0             20s
+workon-69dccb94cb-xq5gl   1/1     Running   1 (58m ago)   61m
+workon-69dccb94cb-xxw74   1/1     Running   0             20s
+```
+
 Próximo passo... [Atualizando projeto](update.md)
 
 
