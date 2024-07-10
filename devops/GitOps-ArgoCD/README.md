@@ -21,6 +21,12 @@ Antes de partir para parte prática será necessários dar alguns passos atrás 
 
 GitOps é um forma poderosa de gerenciar e automatizar a sua infraestrutura de forma declarativa usando um repositório git.
 
+<div align="center">
+
+![fluxo](../GitOps-ArgoCD/images/fluxo.jfif)
+
+</div>
+
 Basicamente o desenvolvedor e/ou engenheiro devops vai ter todas as definições de infraestrutura em um repositório e o ArgoCD irá fazer verificações em um intervalo de tempo e caso haja alguma modificação no repositório será iniciado um novo deploy da sua aplicação no seu cluster kubernetes.
 
 Com gitops existe a possibilidade de fazer o reconcile das suas definições, ou seja, caso alguém faça uma alteração manual por exemplo alterando o número de réplicas o argocd irá verificar suas definições e vai fazer o reverte caso o número de réplicas correto não esteja declarado no seu repositório git.

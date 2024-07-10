@@ -1,6 +1,6 @@
 # Criando um repositório git
 
-Agora vamos criar um repósitorio git com as definições de um nginx conforme abaixo:
+Agora vamos criar um repósitorio no https://github.com com as definições de um nginx conforme abaixo:
 
 ```bash
 apiVersion: apps/v1
@@ -26,7 +26,6 @@ spec:
         name: nginx
 ```
 
-Caso queira pode usar o repositório que criei para esse artigo segue o link.
-
+Caso queira pode usar o repositório que criei para esse artigo segue o [link](https://github.com/rfahham/projetos-kubernetes/blob/main/nginx/deployment.yaml).
 
 Próximo passo... [Conexão](conexao.md)
