@@ -1,0 +1,70 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: workon
+spec:
+  ports:
+  - port: 8000
+  selector:
+    app: workon
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: workon
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: workon
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  minReadySeconds: 5 
+  template:
+    metadata:
+      labels:
+        app: workon
+    spec:
+      containers:
+      - name: workon
+        image: rfahham/workon:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8000
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        env:
+        - name: AWS_BUCKET
+          value:  workon-pdf-pt-rfgq"
+        - name: S3_ACCESS_KEY
+          value: ""
+        - name: S3_SECRET_ACCESS_KEY
+          value: ""
+        - name: DB_HOST_NAME
+          value: "luxxy.c7d3gbetv6s5.us-east-1.rds.amazonaws.com"
+        - name: DB_USER
+          value: "app"
+        - name: DB_PASSWORD
+          value: "welcome123456"
+        - name: DB_NAME
+          value: "dbcovidtesting"
+        - name: DB_PORT
+          value: "3306"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: workon
+spec:
+  type: LoadBalancer
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8000
+  selector:
+    app: workon
