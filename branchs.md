@@ -3,7 +3,7 @@
 ```bash
 git branch -a
 
- main
+main
 GitOps-ArgoCD
 origin/HEAD -> origin/main
 aws
@@ -14,4 +14,5 @@ main
 observabilidade
 prometheus-grafana
 python
+sre
 ```
