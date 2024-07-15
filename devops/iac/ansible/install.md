@@ -10,14 +10,27 @@ ou
 yum install ansible
 ```
 
+## Verificando a versão
 
+```bash 
+ansible --version
+
+ansible [core 2.17.1]
+  config file = None
+  configured module search path = ['/home/rfahham/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /home/rfahham/.local/lib/python3.10/site-packages/ansible
+  ansible collection location = /home/rfahham/.ansible/collections:/usr/share/ansible/collections
+  executable location = /home/rfahham/.local/bin/ansible
+  python version = 3.10.12 (main, Mar 22 2024, 16:50:05) [GCC 11.4.0] (/usr/bin/python3)
+  jinja version = 3.0.3
+  libyaml = True
+```
 
 ## MAC
 
 ```bash 
 brew install ansible
 ```
-
 
 Verifica playbooks ansible para práticas e comportamento
 

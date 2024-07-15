@@ -1,0 +1,2 @@
+- Hands-On - Criação de Conta no GCP
+- Hands-On - Criação alerta de cobrança
