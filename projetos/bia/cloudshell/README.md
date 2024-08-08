@@ -168,3 +168,38 @@ docker compose up -d
 ## Acessar via browser
 
 Pegar o IP Público:3001
+
+## Para persistir as informações
+
+Adicionar o IP público:3001 no Dockerfile
+
+RUN REACT_APP_API_URL=http://IP-público:3001
+
+## Parar o container
+
+```bash
+docker compose down
+```
+
+## Refazer o build
+
+Vai subir com o endereço corrigido
+
+```bash
+docker compose build server
+```
+
+Erro 500 (Internal server error)
+
+{"message":"relation ""Tarefas does nor exist"}
+
+A tabela de tarefas não existem
+
+## Migrates
+
+```bash
+docker compose exec server bash -c 'npx sequelize db:migrate'
+```
+
+Esperado Status Code 304
+ 
