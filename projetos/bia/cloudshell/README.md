@@ -130,7 +130,7 @@ sudo su ec2-user
 ## Acessar a home
 
 ```bash
-cd ~
+cd /home/ec2-user
 ```
 
 ## Verificar se o docker está instalado
