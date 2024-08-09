@@ -26,5 +26,5 @@ O Amazon Elastic Container Registry integra-se ao Amazon EKS, ao Amazon ECS, ao 
 
 O Amazon ECR Public facilita o compartilhamento público de software de contêiner em todo o mundo para qualquer pessoa baixar. Qualquer pessoa com ou sem uma conta da AWS pode pesquisar os Amazon ECR Public Gallery em busca de software de contêiner público e extrair artefatos para uso.
 
-Como funciona
+Próximo passo...[Criar um ECR](./criar.md)
 
