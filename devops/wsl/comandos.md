@@ -1,5 +1,7 @@
 # Comandos WSL
 
+https://learn.microsoft.com/pt-br/windows/wsl/basic-commands
+
 Listar as distribuições disponíveis
 
 ```bash
