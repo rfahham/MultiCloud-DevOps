@@ -6,13 +6,15 @@
 docker container run -d nginx
 ```
 
+## Listar os containers
+
+```bash
+docker container ls
+```
+
 ## Acessar o NGINX
 
 ```bash
-
-docker container ls
-
-
 docker exec -it <ID do Container> /bin/bash
 ```
 
@@ -35,16 +37,20 @@ docker stop a00215fa1111
 
 ## Remover containers
 
-
+```bash
 docker container rm <nome do container>
+```
 
-Apagar quando não estiver mais sendo usando
+## Apagar quando não estiver mais sendo usando
 
+```bash
 docker container run --rm hello-world
+```
 
-
-CUIDADO !!!
+## CUIDADO !!!
 
 Apagar todos os containers
 
+```bash
 docker container rm -f $(docker container ls -aq)
+```

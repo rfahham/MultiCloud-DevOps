@@ -2,12 +2,18 @@
 
 ## O que é Docker e por que ele é tão importante
 
+Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração.
+
+Linguagem de programação: Go
+
+Possibilita criar imagens das aplicações e podem ser utilizadas tanto localmente quanto em kubernetes.
+
 
 ## Conceitos básicos de Imagens e Containers 
 
 Imagem - Tudo que é necessário para executar um container, uma aplicação.
 
-Container - 
+Container - Uma imagem de contêiner do Docker é um pacote de software leve, autônomo e executável que inclui tudo o que é necessário para executar um aplicativo: código, tempo de execução, ferramentas do sistema, bibliotecas do sistema e configurações.
 
 ## Comandos essenciais do Docker para criar, gerenciar e remover containers
 
@@ -28,7 +34,8 @@ Common Commands:
 
 ## Como criar seu próprio Dockerfile e construir imagens customizadas
 
-
-
+  FROM nginx
+  LABEL maintainer="rfahham@hotmail.com"
+  COPY ./site /usr/share/nginx/html/
 
 ## Dicas práticas para integrar Docker no seu fluxo de trabalho
